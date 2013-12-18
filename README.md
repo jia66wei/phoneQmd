@@ -23,5 +23,5 @@ phoneQmd
      
 1.3 问题：
 
-    1） malloc分配不够大
+    1） malloc分配不够大:
         将需要的数组切成两个子数组，分别malloc好点

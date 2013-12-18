@@ -2,11 +2,17 @@ phoneQmd
 ========
 
 通信录亲密度
+
  一： 手机通讯录亲密度算法实现
+ 
 1.1 算法策略
+
     weight<a,b> = Flag12*32 + Flag21*8 + 0.5*(a&b)
+    
 1.2 程序地址:
+
      28:  /data1/ua/jiawei/task/phoneQmd/src
+     
      版本：V3 phoneQmd_v3.c
      实现思路：
      1）：输入数据进行排序---两列的形式。

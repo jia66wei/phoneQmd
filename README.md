@@ -13,13 +13,15 @@ phoneQmd
 
      28:  /data1/ua/jiawei/task/phoneQmd/src
      
-     版本：V3 phoneQmd_v3.c
+     版本：V1 phoneQmd_v1.c
      实现思路：
      1）：输入数据进行排序---两列的形式。
      2）：数组PID：依次顺序输入全量通讯录中的内容。
      3）：结构体数组：记录每个pid，在PID中的起始位置及长度。
      4）：遍历结构体数组，计算pid与通讯录里面的亲密度
      5）：输出
+     版本：V2 phoneQmd_v2.c
+     1) 加入了指针数组，将malloc分别分开计算
      
 1.3 问题：
 

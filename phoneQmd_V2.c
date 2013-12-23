@@ -6,7 +6,7 @@
 #define Hash 1000 // 按照uid哈希，方便查找
 #define Col  26000 // Hash*Col = UID 数目
 
-#define NUM  10000000000 // 关系数
+#define NUM  1000000 // 关系数
 #define Array  5  // 将所需要的空间动态分隔malloc 
 
 
